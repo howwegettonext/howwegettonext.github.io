@@ -22,6 +22,7 @@ h2 {
 p {
     font-size: 18px;
     padding: 15px 0;
+    max-width: 741px;
 }
 
 #credits {
@@ -45,7 +46,6 @@ a:hover {
 /* CONTAINER */
 
 #mainwidth {
-  background-color: #ECF3F6;
     max-width: 1140px;
     height: 100%;
     padding: 2px 20px;
