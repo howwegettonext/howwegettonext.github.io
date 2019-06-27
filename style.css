@@ -137,7 +137,7 @@ nav ul li {
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 680px) {
     img {max-width: 330px;}
 
     .container {
