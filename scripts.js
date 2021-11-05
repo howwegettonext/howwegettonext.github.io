@@ -1,8 +1,7 @@
 jQuery(document).ready(function(){
-  console.log('hi2');
+
 
     jQuery('.has-submenu').mouseenter(function(){
-      console.log('hi');
       jQuery(this).addClass('open');
       jQuery(this).find('.submenu').fadeIn();
 
