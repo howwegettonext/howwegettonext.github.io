@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http - equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/auw8bny.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54448814-4"></script>
 <script>
@@ -17,7 +16,9 @@
 
   gtag('config', 'UA-54448814-4');
 </script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,11 +28,16 @@
         <a href="https://howwegettonext.com/"><img src="images/next.png" class="button" id="nextlogo" alt="How We Get to Next Home"></a>
         <nav>
             <ul>
-                <li><a href="https://howwegettonext.com/archive/">THEMES</a></li>
+                <li><a href="https://howwegettonext.com/themes/">THEMES</a></li>
                 <li><a href="https://howwegettonext.com/series/">SERIES</a></li>
                 <li><a href="https://howwegettonext.com/beats/">BEATS</a></li>
                 <li><a href="https://interactive.howwegettonext.com">INTERACTIVES</a></li>
-                <li><a href="https://howwegettonext.com/we-wont-get-to-next/">ABOUT</a></li>
+                <li class="has-submenu">
+                  <a href="https://howwegettonext.com/about-how-we-get-to-next/">ABOUT</a>
+                  <div class="submenu">
+                    <a href="https://howwegettonext.com/you-can-republish-our-content/" class="submenu-item">You Can Republish Our Content</a>
+                  </div>
+                </li>
             </ul>
         </nav>
       </div>
@@ -47,6 +53,12 @@
       </div>
     </div>
   </main>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+
 </body>
 
 </html>
